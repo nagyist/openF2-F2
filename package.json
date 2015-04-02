@@ -7,9 +7,6 @@
 	],
 	"homepage": "https://github.com/OpenF2/F2",
 	"author": "Markit On Demand, Inc",
-	"scripts": {
-		"preinstall": "npm install grunt-cli markitdown -g"
-	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/OpenF2/F2.git"
@@ -37,6 +34,7 @@
 		"grunt-contrib-uglify": "~0.2.0",
 		"grunt-express": "~0.3.3",
 		"handlebars": "1.0.10",
+		"markitdown": "*",
 		"moment": "~2.0.0",
 		"pandoc": "0.2.0",
 		"semver": "~1.1.4",
